@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>퀴즈</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <div class="start_btn"><button>시작하기</button></div>
+
+    <div class="info_box">
+        <div class="info-title"><span>규칙</span></div>
+        <div class="info-list">
+            <div class="info">1. 여러분은 <span>15 초</span> 안에 문제를 푸셔야 합니다.</div>
+            <div class="info">2. 전부 맞추신다면 소정의 상품이 있을수도 있습니다.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">퀴즈 나가기</button>
+            <button class="restart">계속하기</button>
+        </div>
+    </div>
+
+    <div class="quiz_box">
+        <header>
+            <div class="title">퀴즈</div>
+            <div class="timer">
+                <div class="time_left_txt">남은시간</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+            </div>
+            <div class="option_list">
+            </div>
+        </section>
+
+        <footer>
+            <div class="total_que">
+            </div>
+            <button class="next_btn">다음 문제</button>
+        </footer>
+    </div>
+
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text"> 끝났습니다. </div>
+        <div class="score_text">
+        </div>
+        <div class="buttons">
+            <button class="restart">퀴즈 다시 시작하기</button>
+            <button class="quit">퀴즈 나가기</button>
+        </div>
+    </div>
+
+    <script src="js/questions.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
