@@ -18,6 +18,7 @@ start_btn.onclick = ()=>{
 // if exitQuiz button clicked
 exit_btn.onclick = ()=>{
     info_box.classList.remove("activeInfo"); //hide info box
+    location.href="../../index.html";
 }
 
 // if continueQuiz button clicked
@@ -63,6 +64,7 @@ restart_quiz.onclick = ()=>{
 // if quitQuiz button clicked
 quit_quiz.onclick = ()=>{
     window.location.reload(); //reload the current window
+    location.href="../../index.html"
 }
 
 const next_btn = document.querySelector("footer .next_btn");

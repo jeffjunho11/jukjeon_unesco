@@ -1,4 +1,4 @@
-// creating an array and passing the number, questions, options, and answers
+
 let questions = [
     {
     numb: 1,
@@ -8,29 +8,29 @@ let questions = [
       "국제 연합 기관 중 하나",
       "시민단체",
       "",
-      "Hyper Tool Multi Language"
+      ""
     ]
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "질문2?",
+    answer: "질문의 답",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "옵션1",
+      "옵션2",
+      "옵션3",
+      "옵션4"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "질문3?",
+    answer: "질문의 답",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "옵션1",
+      "옵션2",
+      "옵션3",
+      "옵션4"
     ]
   },
 ];
